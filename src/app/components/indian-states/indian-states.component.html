@@ -1,0 +1,38 @@
+<div class="WRAPPER_INDIA">
+  <section>
+    <div @fade class="stat-box">
+      <div class="heading">
+        <h1>CURRENT STATUS OF COVID-19 INDIA STATE-WISE</h1>
+        <h1 class="text-center">DATA CHART</h1>
+      </div>
+      <div class="total-active text-center">
+        <h1>TOTAL ACTIVE</h1>
+        <br />
+
+        {{ total_active | number }}
+      </div>
+      <div class="total-cases text-center">
+        <h1>TOTAL CONFIRMED</h1>
+        <br />
+
+        {{ total_confirmed | number }}
+      </div>
+      <div class="total-deaths text-center">
+        <h1>TOTAL DEATHS</h1>
+        <br />
+
+        {{ total_deaths | number }}
+      </div>
+      <div class="total-recovered text-center">
+        <h1>TOTAL RECOVERED</h1>
+        <br />
+
+        {{ total_recovered | number }}
+      </div>
+    </div>
+  </section>
+
+  <div class="indiaChart float-center">
+    <canvas id="indiaData"></canvas>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+.WRAPPER_GLOBAL {
+  background: linear-gradient(120deg, skyblue, white);
+}
+
+.heading {
+  opacity: 0.8;
+  color: #0099ff;
+  text-shadow: 5px 5px 5px rgba(12, 117, 136, 0.6);
+}
+
+.stat-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.total-cases {
+  border-bottom: 10px solid rgb(218, 23, 23);
+  width: 30%;
+  height: 20%;
+  color: rgb(218, 23, 23);
+}
+.total-deaths {
+  border-bottom: 10px solid rgb(23, 20, 196);
+  width: 30%;
+  height: 20%;
+  color: rgb(23, 20, 196);
+}
+.total-recovered {
+  border-bottom: 10px solid rgb(61, 153, 18);
+  width: 30%;
+  height: 20%;
+  color: rgb(61, 153, 18);
+}
+.globalChart {
+  width: 80%;
+  height: fit-content;
+  align-items: center;
+  padding: 20% auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 780px) {
+  .total-cases,
+  .total-deaths,
+  .total-recovered {
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .globalChart {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    padding: 10px auto;
+    margin: 0 auto;
+  }
+}

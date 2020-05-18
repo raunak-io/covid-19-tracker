@@ -1,0 +1,91 @@
+<div class="WRAPPER_Info">
+  <section class="About-covid">
+    <div @fade class="description">
+      <h1>What Is C<span>o</span>vid-<span>19</span>?</h1>
+      <p *ngFor="let ans of detail">{{ ans }}</p>
+    </div>
+  </section>
+
+  <section class="Symptoms">
+    <div class="symptom">
+      <div class="heading1">
+        <span @fade>What are its symptoms??</span>
+        <hr />
+      </div>
+      <div class="boxes1">
+        <div class="container1">
+          <div @fade class="box green1">
+            <img src="../../../assets/covidImages/green.png" alt="" />
+          </div>
+          <div @fade class="box green">
+            <span>most common symptoms</span>
+            <ul *ngFor="let listg of green">
+              <li>{{ listg }}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container2">
+          <div @fade class="box yellow1">
+            <img src="../../../assets/covidImages/serioussymp.png" alt="" />
+          </div>
+          <div @fade class="box yellow">
+            <span>Less common symptoms</span>
+            <ul *ngFor="let listy of yellow">
+              <li>{{ listy }}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container3">
+          <div @fade class="box red1">
+            <img src="../../../assets/covidImages/red.png" alt="" />
+          </div>
+          <div @fade class="box red">
+            <span>serious symptoms</span>
+            <ul *ngFor="let listr of yellow">
+              <li>{{ listr }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Precautions">
+    <div class="precaution">
+      <div class="heading2">
+        <span @fade>How we can prevent ourselves??</span>
+        <hr />
+      </div>
+
+      <div class="boxes2">
+        <div class="cont1">
+          <div @fade class="box2 ban">
+            <img src="../../../assets/covidImages/banner1.png" alt="" />
+          </div>
+          <div class="box2 adv1">
+            <span @fade>STAY HOME and stay safe </span>
+          </div>
+        </div>
+
+        <div class="cont2">
+          <div @fade class="box2 ban">
+            <img src="../../../assets/covidImages/banner2.png" alt="" />
+          </div>
+          <div class="box2 adv2">
+            <span @fade>cover and keep a safe distance </span>
+          </div>
+        </div>
+
+        <div class="cont3">
+          <div @fade class="box2 ban">
+            <img src="../../../assets/covidImages/banner3.png" alt="" />
+          </div>
+          <div class="box2 adv3">
+            <span @fade>wash hands daily and sanitize </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

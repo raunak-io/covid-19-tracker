@@ -1,0 +1,206 @@
+.WRAPPER_Info {
+  background-color: #f5fcfb;
+  box-sizing: border-box;
+
+  background-image: url("../../../assets/covidImages/backimg.png"),
+    linear-gradient(45deg, blue, #0099ff, rgba(0, 0, 0, 0.6));
+  background-blend-mode: multiply;
+}
+.About-covid h1 {
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: aliceblue;
+
+  font-size: 5em;
+}
+.About-covid .description h1 span {
+  color: red;
+}
+.About-covid p {
+  text-align: center;
+  font-family: cursive;
+  color: aliceblue;
+}
+.Symptoms .symptom .heading1 {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: red;
+  opacity: 0.7;
+
+  text-shadow: 5px 5px 5px rgba(250, 225, 225, 0.8);
+}
+.Symptoms .symptom .heading1 hr {
+  width: 45%;
+
+  padding: 0% 15%;
+}
+.Symptoms .symptom .box span {
+  color: red;
+  font-family: cursive;
+  font-size: larger;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+}
+.Symptoms .symptom .box ul {
+  list-style: none;
+  color: white;
+  font-family: cursive;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+}
+.Symptoms .symptom .green {
+  background-color: yellowgreen;
+  border-radius: 73% 27% 54% 26% / 31% 73% 27% 69%;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.Symptoms .symptom .yellow {
+  background-color: rgb(243, 243, 76);
+  border-radius: 45% 55% 89% 11% / 23% 90% 10% 77%;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.Symptoms .symptom .red {
+  background-color: rgb(236, 88, 88);
+  border-radius: 59% 41% 73% 27% / 4% 90% 10% 96%;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.heading2 {
+  text-align: center;
+
+  text-transform: uppercase;
+  color: red;
+  overflow: hidden;
+  opacity: 0.7;
+  font-size: 3em;
+  text-shadow: 5px 5px 5px rgba(250, 225, 225, 0.8);
+}
+
+.Precautions .precaution .heading2 hr {
+  width: 45%;
+
+  padding: 0% 15%;
+}
+
+.Precautions .precaution ul {
+  list-style: none;
+  color: gray;
+  font-family: cursive;
+}
+
+.Precautions .precaution .adv1 {
+  background: linear-gradient(to right, purple, blue);
+  color: white;
+  border-radius: 81% 19% 44% 56% /53% 50% 50% 47%;
+  height: fit-content;
+  width: fit-content;
+  padding: 7%;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: larger;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.Precautions .precaution .adv2 {
+  background: linear-gradient(to right, red, yellow);
+  color: white;
+  border-radius: 31% 69% 18% 82% /56% 45% 55% 44%;
+  height: fit-content;
+  width: fit-content;
+  padding: 7%;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: larger;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.Precautions .precaution .adv3 {
+  background: linear-gradient(to right, rgb(57, 158, 27), purple);
+  color: white;
+  border-radius: 49% 51% 83% 17% /44% 62% 38% 56%;
+  height: fit-content;
+  width: fit-content;
+  padding: 7%;
+  font-family: cursive;
+  text-transform: uppercase;
+
+  font-size: larger;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box1,
+.box2 img {
+  width: 100%;
+}
+
+.container1,
+.container2,
+.container3,
+.cont1,
+.cont2,
+.cont3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+  justify-content: space-around;
+}
+.container1,
+.container2,
+.container3 {
+  margin: 5em 0;
+}
+@media (max-width: 500px) {
+  .adv1,
+  .adv2,
+  .adv3 {
+    width: 100%;
+  }
+  .ban {
+    width: 100%;
+  }
+  .green1,
+  .yellow1 .red1 {
+    width: 100%;
+  }
+  .gree,
+  .yellow .red {
+    width: 100%;
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 780px) {
+  .adv1,
+  .adv2,
+  .adv3 {
+    width: 30%;
+  }
+  .ban {
+    width: 70%;
+  }
+  .green1,
+  .yellow1,
+  .red1 {
+    width: 70%;
+  }
+  .green1,
+  .yellow1,
+  .red1 img {
+    margin-bottom: 7%;
+  }
+  .green,
+  .yellow,
+  .red {
+    width: 30%;
+  }
+}

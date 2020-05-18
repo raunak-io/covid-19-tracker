@@ -1,0 +1,143 @@
+.WRAPPER {
+  background: linear-gradient(120deg, skyblue, white);
+}
+
+svg {
+  width: 100%;
+}
+.top_wave svg {
+  margin-top: -2px;
+}
+.doctor {
+  background: none;
+  z-index: +1;
+  margin-top: -200px;
+}
+.welcome_note h1 span {
+  color: red;
+}
+.front {
+  margin-top: 50px;
+}
+.vector_image .doc1 {
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: center;
+}
+.vector_image .vector img {
+  width: 70%;
+  height: 30%;
+  padding-left: 20%;
+}
+.bottom_wave .wave .col {
+  margin-bottom: -8px;
+}
+.footer {
+  background-color: #0099ff;
+}
+.bottom_wave {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.wave .col {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+footer .h5 {
+  color: whitesmoke;
+}
+footer .h5:hover {
+  color: red;
+}
+
+.INSTR div {
+  border: none;
+  width: 70%;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  background-color: red;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  transform: skew(25deg);
+}
+.INSTR .INS {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 30px 0;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.INSTR .INS:hover {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1) skew(25deg);
+  transition: 0.8s;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .WRAPPER {
+    width: 100%;
+  }
+  .welcome_note {
+    margin-top: -10%;
+    width: auto;
+  }
+  .vector_image .doc1 {
+    height: 800px;
+    width: 600px;
+    float: none;
+  }
+  .description {
+    width: auto;
+  }
+  .bottom_wave {
+    width: 100%;
+  }
+  .top_wave {
+    width: 100%;
+  }
+}
+footer {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 890px) {
+  .WRAPPER {
+    width: 100%;
+  }
+  .welcome_note {
+    width: auto;
+    margin-top: 2%;
+  }
+  .vector_image .doc1 {
+    height: 600px;
+    width: 400px;
+    float: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  .description {
+    width: auto;
+  }
+  .bottom_wave {
+    width: 100%;
+  }
+  .top_wave {
+    width: 100%;
+  }
+}

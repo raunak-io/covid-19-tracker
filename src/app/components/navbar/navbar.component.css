@@ -1,0 +1,23 @@
+.navbar {
+  background: #0099ff;
+}
+.navbar-light .navbar-nav a {
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bolder;
+}
+.navbar-light .navbar-nav a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.navbar div ul li:hover {
+  border-bottom: 3px solid whitesmoke;
+  margin-bottom: 0;
+}
+.logo {
+  --width: 170px;
+  --height: calc(var(--width / 3));
+  height: var(--height);
+  width: var(--width);
+  margin: 0;
+}

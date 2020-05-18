@@ -1,0 +1,27 @@
+<div class="WRAPPER_GLOBAL">
+  <h1 class="heading text-center">THE CURRENT STATISTICS ACROSS THE GLOBE</h1>
+
+  <div @fade class="stat-box">
+    <div class="total-cases text-center">
+      <h1>TOTAL CONFIRMED</h1>
+      <br />
+
+      {{ confirmed | number }}
+    </div>
+    <div class="total-deaths text-center">
+      <h1>TOTAL DEATHS</h1>
+      <br />
+
+      {{ deaths | number }}
+    </div>
+    <div class="total-recovered text-center">
+      <h1>TOTAL RECOVERED</h1>
+      <br />
+
+      {{ recovered | number }}
+    </div>
+  </div>
+  <div class="globalChart float-center">
+    <canvas id="allData"></canvas>
+  </div>
+</div>
