@@ -37,12 +37,12 @@
         </div>
 
         <div class="container3">
-          <div @fade class="box red1">
-            <img src="../../../assets/covidImages/red.png" alt="" />
+          <div class="box red1">
+            <img @fade src="../../../assets/covidImages/red.png" alt="" />
           </div>
-          <div @fade class="box red">
-            <span>serious symptoms</span>
-            <ul *ngFor="let listr of yellow">
+          <div class="box red">
+            <span @fade>serious symptoms</span>
+            <ul @fade *ngFor="let listr of yellow">
               <li>{{ listr }}</li>
             </ul>
           </div>
@@ -60,8 +60,8 @@
 
       <div class="boxes2">
         <div class="cont1">
-          <div @fade class="box2 ban">
-            <img src="../../../assets/covidImages/banner1.png" alt="" />
+          <div class="box2 ban">
+            <img @fade src="../../../assets/covidImages/banner1.png" alt="" />
           </div>
           <div class="box2 adv1">
             <span @fade>STAY HOME and stay safe </span>
@@ -78,8 +78,8 @@
         </div>
 
         <div class="cont3">
-          <div @fade class="box2 ban">
-            <img src="../../../assets/covidImages/banner3.png" alt="" />
+          <div class="box2 ban">
+            <img @fade src="../../../assets/covidImages/banner3.png" alt="" />
           </div>
           <div class="box2 adv3">
             <span @fade>wash hands daily and sanitize </span>

@@ -17,24 +17,24 @@
   </section>
 
   <section>
-    <div @fade class="stat-box">
+    <div class="stat-box">
       <div class="heading">
-        <h1>CURRENT STATUS OF COVID-19 COUNTRY WISE</h1>
+        <h1 @fade>CURRENT STATUS OF COVID-19 COUNTRY WISE</h1>
       </div>
       <div class="total-cases text-center">
-        <h1>TOTAL CONFIRMED</h1>
+        <h1 @fade>TOTAL CONFIRMED</h1>
         <br />
 
         {{ confirmed | number }}
       </div>
       <div class="total-deaths text-center">
-        <h1>TOTAL DEATHS</h1>
+        <h1 @fade>TOTAL DEATHS</h1>
         <br />
 
         {{ deaths | number }}
       </div>
       <div class="total-recovered text-center">
-        <h1>TOTAL RECOVERED</h1>
+        <h1 @fade>TOTAL RECOVERED</h1>
         <br />
 
         {{ recovered | number }}
